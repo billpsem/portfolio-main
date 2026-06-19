@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Alex Morgan — digital work, selected systems and experiments." />
+    <title>Alex Morgan / Digital Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>.language-toggle{cursor:pointer;background:transparent;border:1px solid #405147;color:#c8ff4b;font:500 10px 'DM Mono',monospace;padding:7px 8px}.language-toggle.greek{background:#c8ff4b;color:#0a0d0c}</style>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="scanline"></div>
+    <header class="nav shell">
+      <a class="wordmark" href="#top">ALEX//MORGAN<span class="blink">_</span></a>
+      <nav><a href="#work" data-t="work">[ work ]</a><a href="#profile" data-t="profile">[ profile ]</a><a class="status" href="#contact"><i></i><span data-t="status">available_for_work</span></a><button class="language-toggle" type="button" aria-label="Change language">GR / EN</button></nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="sys-line"><span>SYS.PORTFOLIO / 2025</span><span>ATHENS, GR // 37.9838° N</span></div>
+        <p class="prompt"><span>visitor@portfolio:~$</span> cat ./introduction.txt</p>
+        <h1 data-h="hero">I build <em>sharp</em><br />digital experiences<br />for brands with <strong>signal.</strong></h1>
+        <div class="hero-data">
+          <p data-t="intro">Creative direction, digital design, identity systems and sites that don’t look like they came from a template.</p>
+          <a href="#work" class="enter"><span data-t="cta">EXPLORE_SELECTED_WORK</span> <b>↓</b></a>
+        </div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+      </section>
+
+      <section class="work shell" id="work">
+        <div class="section-bar"><span data-t="selected">01 — SELECTED_OUTPUT</span><span>(04 PROJECTS / 2023—25)</span></div>
+        <a class="case c-one" href="https://example.com" target="_blank" rel="noreferrer">
+          <div class="case-number">01</div><div class="case-visual visual-one"><span>OR/A</span><div class="orb"></div><small>LESS NOISE<br />MORE SKIN.</small></div>
+          <div class="case-info"><div><h2>Ora Skincare</h2><p>Brand system · E-commerce · Art direction</p></div><span class="case-link">OPEN_CASE ↗</span></div>
+        </a>
+        <a class="case c-two" href="https://example.com" target="_blank" rel="noreferrer">
+          <div class="case-number">02</div><div class="case-visual visual-two"><span>NORTH_</span><div class="mountain"></div><small>GO FARTHER<br />ON PURPOSE.</small></div>
+          <div class="case-info"><div><h2>North Journal</h2><p>Editorial platform · Website · Campaign</p></div><span class="case-link">OPEN_CASE ↗</span></div>
+        </a>
+        <a class="case c-three" href="https://example.com" target="_blank" rel="noreferrer">
+          <div class="case-number">03</div><div class="case-visual visual-three"><span>FOLD*</span><b>MAKE<br />IT<br />COUNT.</b><small>BUILDING<br />CULTURE.</small></div>
+          <div class="case-info"><div><h2>Fold Studio</h2><p>Digital identity · Portfolio · Development</p></div><span class="case-link">OPEN_CASE ↗</span></div>
+        </a>
+        <a class="case c-four" href="https://example.com" target="_blank" rel="noreferrer">
+          <div class="case-number">04</div><div class="case-visual visual-four"><span>VELA</span><div class="velocity">///</div><small>MOVE<br />DIFFERENTLY.</small></div>
+          <div class="case-info"><div><h2>Vela Mobility</h2><p>Launch campaign · Digital product · Motion</p></div><span class="case-link">OPEN_CASE ↗</span></div>
+        </a>
+      </section>
+
+      <section class="profile shell" id="profile">
+        <div class="section-bar"><span data-t="operator">02 — OPERATOR_PROFILE</span><span>EST. 2019</span></div>
+        <div class="profile-grid"><div class="avatar"><span>AM</span><i>◉</i><em>HUMAN<br />INTERFACE</em></div><div class="profile-copy"><p class="prompt"><span>visitor@portfolio:~$</span> whoami</p><h2 data-h="about">Designer. Builder.<br />Professional <em>overthinker.</em></h2><p data-t="aboutCopy">I’m Alex — an independent creative who works with people making things worth paying attention to. I bring taste, clarity and a practical bias toward getting the thing live.</p><div class="capabilities"><span>IDENTITY</span><span>WEB DESIGN</span><span>CREATIVE DIRECTION</span><span>FRONT-END</span></div></div></div>
+      </section>
+
+      <section class="contact shell" id="contact">
+        <p class="prompt"><span>visitor@portfolio:~$</span> initiate_collaboration --now</p>
+        <h2 data-h="contact">Got something<br />worth <a href="mailto:hello@yourname.com">making?</a></h2>
+        <div class="contact-bottom"><p data-t="contactCopy">Currently taking on a limited number of freelance projects.</p><a href="mailto:hello@yourname.com">hello@yourname.com <span>↗</span></a></div>
+      </section>
+    </main>
+    <footer class="footer shell"><span>© <span id="year"></span> ALEX MORGAN</span><span>NO TRACKERS. NO TEMPLATES.</span><a href="#top" data-t="top">BACK_TO_TOP ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
